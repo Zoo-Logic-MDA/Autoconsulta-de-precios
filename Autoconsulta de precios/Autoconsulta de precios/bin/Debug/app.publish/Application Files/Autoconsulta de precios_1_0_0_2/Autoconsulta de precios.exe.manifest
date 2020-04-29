@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Autoconsulta de precios.exe" version="1.0.0.2" publicKeyToken="4eae688625da0b8e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Autoconsulta de precios" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Autoconsulta de precios.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Autoconsulta de precios.exe" size="17408">
+      <assemblyIdentity name="Autoconsulta de precios" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>M78DavBNBtWVLTQ+7ICeYSZjIzF/DHtyW9oy4uUZfk0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Autoconsulta de precios.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ZOOLOGIC\ilegarreta" issuerKeyHash="8342c1650e054c947e5febc754803d729c2ed97b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uFdpHwFQxWBLvy9X/F7bNb8o8M+J8cKd7IKHIl+Qqwo=</DigestValue></Reference></SignedInfo><SignatureValue>BDfsMvvfYW8YtjVCm+7Le5oCPIfv1viinyBGu2mrioIPiAtBUD6e9xhhagK2fAqDWu7Xn/sJed1v9HCcb53W8QMXTc+hdAd9g2kQBfgPDgSNXiPKsHa7ZJHk9JSdsgLb34hkz4NWzVaqZZ8AOtywIOTdn7M8/GxeVPWclCJ5t3I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uBxXuuWqtThFuieC8ilqVnH9KvyqICKEGwP0PsTKhuxSDpiFmA4XYWETcHtYAW3FetGg3PDLAm/LAUgMyOVEII4AajDGhPgKaeEOZYRwGANr5MioyQrmr0IIZUnU6ALGYgq/AFF6DLIqG5272smIC2dripjPs4hDl3Vn/eP4VsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0aab905f228782ec9dc2f189cff028bf35db5efc572fbf4b60c550011f6957b8" Description="" Url=""><as:assemblyIdentity name="Autoconsulta de precios.exe" version="1.0.0.2" publicKeyToken="4eae688625da0b8e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZOOLOGIC\ilegarreta</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P1cXHNVUd1dZtakaoaFurpC7HgnFh98nBVUeoAXDeAk=</DigestValue></Reference></SignedInfo><SignatureValue>P7+QWKaeuIfY1pNfGy7M7+8rgrp6rNbuI88SYuEgWNxPsHi1YwPSc6xo67O8GvkoJAIajhC6jz5RXXwgGYyNi/p4MO5tyXA+X7yPB2AZCdGYg6OL29tjsBjqSgePuf9uC5hLmtXzwdNlzFfiPEQ3QvTxjtXveS4psqBAJVvNIfs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uBxXuuWqtThFuieC8ilqVnH9KvyqICKEGwP0PsTKhuxSDpiFmA4XYWETcHtYAW3FetGg3PDLAm/LAUgMyOVEII4AajDGhPgKaeEOZYRwGANr5MioyQrmr0IIZUnU6ALGYgq/AFF6DLIqG5272smIC2dripjPs4hDl3Vn/eP4VsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQeOsd31R856hKc6SwnGjp3jANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAWgBPAE8ATABPAEcASQBDAFwAaQBsAGUAZwBhAHIAcgBlAHQAYTAeFw0xOTAzMDExNTU5NThaFw0yMDAyMjkyMTU5NThaMDExLzAtBgNVBAMeJgBaAE8ATwBMAE8ARwBJAEMAXABpAGwAZQBnAGEAcgByAGUAdABhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4HFe65aq1OEW6J4LyKWpWcf0q/KogIoQbA/Q+xMqG7FIOmIWYDhdhYRNwe1gBbcV60aDc8MsCb8sBSAzI5UQgjgBqMMaE+App4Q5lhHAYA2vkyKjJCuavQghlSdToAsZiCr8AUXoMsiobnbvayYgLZ2uKmM+ziEOXdWf94/hWwQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABHuGms+L6iU1OAgWrjzCAPRN7U00qrP2N5QoRojNleIuMoKPIHb4Rkp04d2VhFFbzj2u/uVOB7NeU6f5Vs4a+TczUTNDvZwYHY5zAeU9wHq6WcVTrhOYBwBlLVdE2hKabuQMHEB8Ai1R3zvF5Xl2/IMRz2ZQP45ddOsCtUpHJTb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

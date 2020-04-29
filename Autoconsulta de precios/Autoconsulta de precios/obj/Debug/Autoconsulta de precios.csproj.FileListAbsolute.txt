@@ -1,0 +1,14 @@
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\bin\Debug\Autoconsulta de precios.exe.config
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta_de_precios.Form1.resources
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta_de_precios.Properties.Resources.resources
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.csproj.GenerateResource.Cache
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\bin\Debug\Autoconsulta de precios.exe
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\bin\Debug\Autoconsulta de precios.pdb
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.exe
+c:\users\ilegarreta\documents\visual studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.pdb
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.csprojResolveAssemblyReference.cache
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\bin\Debug\Autoconsulta de precios.exe.manifest
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\bin\Debug\Autoconsulta de precios.application
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.TrustInfo.xml
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.exe.manifest
+C:\Users\ilegarreta\Documents\Visual Studio 2012\Projects\Autoconsulta de precios\Autoconsulta de precios\obj\Debug\Autoconsulta de precios.application
