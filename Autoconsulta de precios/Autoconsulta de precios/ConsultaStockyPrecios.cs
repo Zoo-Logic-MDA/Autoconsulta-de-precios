@@ -42,4 +42,5 @@ namespace Autoconsulta_de_precios
         private List<ConfiguracionAPI> UnaConfi = new List<ConfiguracionAPI>();
         public List<ConfiguracionAPI> Resultados { get { return UnaConfi; } set { UnaConfi = value; } }
     }
+    //
 }
